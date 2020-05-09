@@ -1,12 +1,10 @@
 #-------------------------------------------------------------------------------
-# Name:        module1
+# Name:        DoubleStack
 # Purpose:
 #
-# Author:      Kostandin
+# Author:      Armela Ligori
 #
 # Created:     23/04/2020
-# Copyright:   (c) Kostandin 2020
-# Licence:     <your licence>
 #-------------------------------------------------------------------------------
 
 class DoubleStack:
@@ -79,8 +77,6 @@ class DoubleStack:
             self.sizeB -= 1
             print(self.data)
             return e
-
-    #top r and top b
 
 ds = DoubleStack()
 ds.pushR(2)
